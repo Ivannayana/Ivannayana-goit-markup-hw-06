@@ -745,6 +745,7 @@ color: #2E2F42;
 .footer-container{
     display: flex;
     align-items: baseline;
+    flex-wrap: wrap;
 }
 
 @media only screen and (min-width: 768px) {
@@ -905,8 +906,6 @@ color: #F4F4FD;
 }
 
 
-.container {}
-
 
 @media only screen and (min-width: 1158px) {
     .container-footer-form-group {
@@ -940,7 +939,7 @@ color: #F4F4FD;
 .order-form-label {}
 
 .order-form-input {
-    width: 264px;
+    width: 288px;
     height: 40px;
     border: 1px solid #ffffff;
     background-color: transparent;
