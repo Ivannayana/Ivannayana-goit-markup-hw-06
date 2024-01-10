@@ -1325,11 +1325,12 @@ color: #F4F4FD;
     margin-bottom: 24px;
 }
 
-.social-list.mobile {
+.social-list {
+    gap: 40px;
     display: flex;
-    gap: 16px;
     flex-direction: row;
 }
+
 
 .social-icons{
     width: 40px;
